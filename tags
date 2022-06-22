@@ -1,0 +1,367 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+AddFilters	materials/linters/cpplint.py	/^  def AddFilters(self, filters):$/;"	m	class:_CppLintState
+AddJUnitFailure	materials/linters/cpplint.py	/^  def AddJUnitFailure(self, filename, linenum, message, category, confidence):$/;"	m	class:_CppLintState
+BUFF	src/grep/s21_grep.c	/^#define BUFF /;"	d	file:
+BackupFilters	materials/linters/cpplint.py	/^  def BackupFilters(self):$/;"	m	class:_CppLintState
+BaseName	materials/linters/cpplint.py	/^  def BaseName(self):$/;"	m	class:FileInfo
+Begin	materials/linters/cpplint.py	/^  def Begin(self, function_name):$/;"	m	class:_FunctionState
+CC	src/Makefile	/^CC=gcc -Wall -Wextra -Werror -std=c11 -g$/;"	m
+CC	src/cat/Makefile	/^CC=gcc -Wall -Wextra -Werror -std=c11$/;"	m
+CC	src/grep/Makefile	/^CC=gcc -Wall -Wextra -Werror -std=c11$/;"	m
+C_STANDARD_HEADER_FOLDERS	materials/linters/cpplint.py	/^C_STANDARD_HEADER_FOLDERS = frozenset([$/;"	v
+CanonicalizeAlphabeticalOrder	materials/linters/cpplint.py	/^  def CanonicalizeAlphabeticalOrder(self, header_path):$/;"	m	class:_IncludeState
+Check	materials/linters/cpplint.py	/^  def Check(self, error, filename, linenum):$/;"	m	class:_FunctionState
+CheckAltTokens	materials/linters/cpplint.py	/^def CheckAltTokens(filename, clean_lines, linenum, error):$/;"	f
+CheckBegin	materials/linters/cpplint.py	/^  def CheckBegin(self, filename, clean_lines, linenum, error):$/;"	m	class:_BlockInfo
+CheckBegin	materials/linters/cpplint.py	/^  def CheckBegin(self, filename, clean_lines, linenum, error):$/;"	m	class:_ClassInfo
+CheckBraces	materials/linters/cpplint.py	/^def CheckBraces(filename, clean_lines, linenum, error):$/;"	f
+CheckBracesSpacing	materials/linters/cpplint.py	/^def CheckBracesSpacing(filename, clean_lines, linenum, nesting_state, error):$/;"	f
+CheckCStyleCast	materials/linters/cpplint.py	/^def CheckCStyleCast(filename, clean_lines, linenum, cast_type, pattern, error):$/;"	f
+CheckCasts	materials/linters/cpplint.py	/^def CheckCasts(filename, clean_lines, linenum, error):$/;"	f
+CheckCheck	materials/linters/cpplint.py	/^def CheckCheck(filename, clean_lines, linenum, error):$/;"	f
+CheckCommaSpacing	materials/linters/cpplint.py	/^def CheckCommaSpacing(filename, clean_lines, linenum, error):$/;"	f
+CheckComment	materials/linters/cpplint.py	/^def CheckComment(line, filename, linenum, next_line_start, error):$/;"	f
+CheckCompletedBlocks	materials/linters/cpplint.py	/^  def CheckCompletedBlocks(self, filename, error):$/;"	m	class:NestingState
+CheckEmptyBlockBody	materials/linters/cpplint.py	/^def CheckEmptyBlockBody(filename, clean_lines, linenum, error):$/;"	f
+CheckEnd	materials/linters/cpplint.py	/^  def CheckEnd(self, filename, clean_lines, linenum, error):$/;"	m	class:_BlockInfo
+CheckEnd	materials/linters/cpplint.py	/^  def CheckEnd(self, filename, clean_lines, linenum, error):$/;"	m	class:_ClassInfo
+CheckEnd	materials/linters/cpplint.py	/^  def CheckEnd(self, filename, clean_lines, linenum, error):$/;"	m	class:_NamespaceInfo
+CheckForBadCharacters	materials/linters/cpplint.py	/^def CheckForBadCharacters(filename, lines, error):$/;"	f
+CheckForCopyright	materials/linters/cpplint.py	/^def CheckForCopyright(filename, lines, error):$/;"	f
+CheckForFunctionLengths	materials/linters/cpplint.py	/^def CheckForFunctionLengths(filename, clean_lines, linenum,$/;"	f
+CheckForHeaderGuard	materials/linters/cpplint.py	/^def CheckForHeaderGuard(filename, clean_lines, error):$/;"	f
+CheckForIncludeWhatYouUse	materials/linters/cpplint.py	/^def CheckForIncludeWhatYouUse(filename, clean_lines, include_state, error,$/;"	f
+CheckForMultilineCommentsAndStrings	materials/linters/cpplint.py	/^def CheckForMultilineCommentsAndStrings(filename, clean_lines, linenum, error):$/;"	f
+CheckForNamespaceIndentation	materials/linters/cpplint.py	/^def CheckForNamespaceIndentation(filename, nesting_state, clean_lines, line,$/;"	f
+CheckForNewlineAtEOF	materials/linters/cpplint.py	/^def CheckForNewlineAtEOF(filename, lines, error):$/;"	f
+CheckForNonConstReference	materials/linters/cpplint.py	/^def CheckForNonConstReference(filename, clean_lines, linenum,$/;"	f
+CheckForNonStandardConstructs	materials/linters/cpplint.py	/^def CheckForNonStandardConstructs(filename, clean_lines, linenum,$/;"	f
+CheckGlobalStatic	materials/linters/cpplint.py	/^def CheckGlobalStatic(filename, clean_lines, linenum, error):$/;"	f
+CheckHeaderFileIncluded	materials/linters/cpplint.py	/^def CheckHeaderFileIncluded(filename, include_state, error):$/;"	f
+CheckIncludeLine	materials/linters/cpplint.py	/^def CheckIncludeLine(filename, clean_lines, linenum, include_state, error):$/;"	f
+CheckInvalidIncrement	materials/linters/cpplint.py	/^def CheckInvalidIncrement(filename, clean_lines, linenum, error):$/;"	f
+CheckItemIndentationInNamespace	materials/linters/cpplint.py	/^def CheckItemIndentationInNamespace(filename, raw_lines_no_comments, linenum,$/;"	f
+CheckLanguage	materials/linters/cpplint.py	/^def CheckLanguage(filename, clean_lines, linenum, file_extension,$/;"	f
+CheckMakePairUsesDeduction	materials/linters/cpplint.py	/^def CheckMakePairUsesDeduction(filename, clean_lines, linenum, error):$/;"	f
+CheckNextIncludeOrder	materials/linters/cpplint.py	/^  def CheckNextIncludeOrder(self, header_type):$/;"	m	class:_IncludeState
+CheckOperatorSpacing	materials/linters/cpplint.py	/^def CheckOperatorSpacing(filename, clean_lines, linenum, error):$/;"	f
+CheckParenthesisSpacing	materials/linters/cpplint.py	/^def CheckParenthesisSpacing(filename, clean_lines, linenum, error):$/;"	f
+CheckPosixThreading	materials/linters/cpplint.py	/^def CheckPosixThreading(filename, clean_lines, linenum, error):$/;"	f
+CheckPrintf	materials/linters/cpplint.py	/^def CheckPrintf(filename, clean_lines, linenum, error):$/;"	f
+CheckRedundantOverrideOrFinal	materials/linters/cpplint.py	/^def CheckRedundantOverrideOrFinal(filename, clean_lines, linenum, error):$/;"	f
+CheckRedundantVirtual	materials/linters/cpplint.py	/^def CheckRedundantVirtual(filename, clean_lines, linenum, error):$/;"	f
+CheckSectionSpacing	materials/linters/cpplint.py	/^def CheckSectionSpacing(filename, clean_lines, class_info, linenum, error):$/;"	f
+CheckSpacing	materials/linters/cpplint.py	/^def CheckSpacing(filename, clean_lines, linenum, nesting_state, error):$/;"	f
+CheckSpacingForFunctionCall	materials/linters/cpplint.py	/^def CheckSpacingForFunctionCall(filename, clean_lines, linenum, error):$/;"	f
+CheckStyle	materials/linters/cpplint.py	/^def CheckStyle(filename, clean_lines, linenum, file_extension, nesting_state,$/;"	f
+CheckTrailingSemicolon	materials/linters/cpplint.py	/^def CheckTrailingSemicolon(filename, clean_lines, linenum, error):$/;"	f
+CheckVlogArguments	materials/linters/cpplint.py	/^def CheckVlogArguments(filename, clean_lines, linenum, error):$/;"	f
+CleanseComments	materials/linters/cpplint.py	/^def CleanseComments(line):$/;"	f
+CleanseRawStrings	materials/linters/cpplint.py	/^def CleanseRawStrings(raw_lines):$/;"	f
+CleansedLines	materials/linters/cpplint.py	/^class CleansedLines(object):$/;"	c
+CloseExpression	materials/linters/cpplint.py	/^def CloseExpression(clean_lines, linenum, pos):$/;"	f
+Count	materials/linters/cpplint.py	/^  def Count(self):$/;"	m	class:_FunctionState
+ElementTree	materials/linters/cpplint.py	/^import xml.etree.ElementTree$/;"	i
+End	materials/linters/cpplint.py	/^  def End(self):$/;"	m	class:_FunctionState
+Error	materials/linters/cpplint.py	/^def Error(filename, linenum, category, confidence, message):$/;"	f
+ExpectingFunctionArgs	materials/linters/cpplint.py	/^def ExpectingFunctionArgs(clean_lines, linenum):$/;"	f
+Extension	materials/linters/cpplint.py	/^  def Extension(self):$/;"	m	class:FileInfo
+FileInfo	materials/linters/cpplint.py	/^class FileInfo(object):$/;"	c
+FilesBelongToSameModule	materials/linters/cpplint.py	/^def FilesBelongToSameModule(filename_cc, filename_h):$/;"	f
+FindCheckMacro	materials/linters/cpplint.py	/^def FindCheckMacro(line):$/;"	f
+FindEndOfExpressionInLine	materials/linters/cpplint.py	/^def FindEndOfExpressionInLine(line, startpos, stack):$/;"	f
+FindHeader	materials/linters/cpplint.py	/^  def FindHeader(self, header):$/;"	m	class:_IncludeState
+FindNextMultiLineCommentEnd	materials/linters/cpplint.py	/^def FindNextMultiLineCommentEnd(lines, lineix):$/;"	f
+FindNextMultiLineCommentStart	materials/linters/cpplint.py	/^def FindNextMultiLineCommentStart(lines, lineix):$/;"	f
+FindStartOfExpressionInLine	materials/linters/cpplint.py	/^def FindStartOfExpressionInLine(line, endpos, stack):$/;"	f
+FixupPathFromRoot	materials/linters/cpplint.py	/^  def FixupPathFromRoot():$/;"	f	function:GetHeaderGuardCPPVariable
+FlagCxx11Features	materials/linters/cpplint.py	/^def FlagCxx11Features(filename, clean_lines, linenum, error):$/;"	f
+FlagCxx14Features	materials/linters/cpplint.py	/^def FlagCxx14Features(filename, clean_lines, linenum, error):$/;"	f
+FormatJUnitXML	materials/linters/cpplint.py	/^  def FormatJUnitXML(self):$/;"	m	class:_CppLintState
+FullName	materials/linters/cpplint.py	/^  def FullName(self):$/;"	m	class:FileInfo
+GetAllExtensions	materials/linters/cpplint.py	/^def GetAllExtensions():$/;"	f
+GetHeaderExtensions	materials/linters/cpplint.py	/^def GetHeaderExtensions():$/;"	f
+GetHeaderGuardCPPVariable	materials/linters/cpplint.py	/^def GetHeaderGuardCPPVariable(filename):$/;"	f
+GetIndentLevel	materials/linters/cpplint.py	/^def GetIndentLevel(line):$/;"	f
+GetLineWidth	materials/linters/cpplint.py	/^def GetLineWidth(line):$/;"	f
+GetNonHeaderExtensions	materials/linters/cpplint.py	/^def GetNonHeaderExtensions():$/;"	f
+GetPreviousNonBlankLine	materials/linters/cpplint.py	/^def GetPreviousNonBlankLine(clean_lines, linenum):$/;"	f
+InAsmBlock	materials/linters/cpplint.py	/^  def InAsmBlock(self):$/;"	m	class:NestingState
+InClassDeclaration	materials/linters/cpplint.py	/^  def InClassDeclaration(self):$/;"	m	class:NestingState
+InExternC	materials/linters/cpplint.py	/^  def InExternC(self):$/;"	m	class:NestingState
+InNamespaceBody	materials/linters/cpplint.py	/^  def InNamespaceBody(self):$/;"	m	class:NestingState
+InTemplateArgumentList	materials/linters/cpplint.py	/^  def InTemplateArgumentList(self, clean_lines, linenum, pos):$/;"	m	class:NestingState
+IncrementErrorCount	materials/linters/cpplint.py	/^  def IncrementErrorCount(self, category):$/;"	m	class:_CppLintState
+InnermostClass	materials/linters/cpplint.py	/^  def InnermostClass(self):$/;"	m	class:NestingState
+IsBlankLine	materials/linters/cpplint.py	/^def IsBlankLine(line):$/;"	f
+IsBlockInNameSpace	materials/linters/cpplint.py	/^def IsBlockInNameSpace(nesting_state, is_forward_declaration):$/;"	f
+IsBlockInfo	materials/linters/cpplint.py	/^  def IsBlockInfo(self):$/;"	m	class:_BlockInfo
+IsCppString	materials/linters/cpplint.py	/^def IsCppString(line):$/;"	f
+IsDecltype	materials/linters/cpplint.py	/^def IsDecltype(clean_lines, linenum, column):$/;"	f
+IsDerivedFunction	materials/linters/cpplint.py	/^def IsDerivedFunction(clean_lines, linenum):$/;"	f
+IsErrorSuppressedByNolint	materials/linters/cpplint.py	/^def IsErrorSuppressedByNolint(category, linenum):$/;"	f
+IsForwardClassDeclaration	materials/linters/cpplint.py	/^def IsForwardClassDeclaration(clean_lines, linenum):$/;"	f
+IsHeaderExtension	materials/linters/cpplint.py	/^def IsHeaderExtension(file_extension):$/;"	f
+IsInAlphabeticalOrder	materials/linters/cpplint.py	/^  def IsInAlphabeticalOrder(self, clean_lines, linenum, header_path):$/;"	m	class:_IncludeState
+IsInitializerList	materials/linters/cpplint.py	/^def IsInitializerList(clean_lines, linenum):$/;"	f
+IsMacroDefinition	materials/linters/cpplint.py	/^def IsMacroDefinition(clean_lines, linenum):$/;"	f
+IsOutOfLineMethodDefinition	materials/linters/cpplint.py	/^def IsOutOfLineMethodDefinition(clean_lines, linenum):$/;"	f
+IsSource	materials/linters/cpplint.py	/^  def IsSource(self):$/;"	m	class:FileInfo
+MAX	src/grep/s21_grep.c	/^#define MAX /;"	d	file:
+Match	materials/linters/cpplint.py	/^def Match(pattern, s):$/;"	f
+NestingState	materials/linters/cpplint.py	/^class NestingState(object):$/;"	c
+NoExtension	materials/linters/cpplint.py	/^  def NoExtension(self):$/;"	m	class:FileInfo
+NumLines	materials/linters/cpplint.py	/^  def NumLines(self):$/;"	m	class:CleansedLines
+PATH_TO_CPPLINT	materials/build/scripts/style_tests.py	/^PATH_TO_CPPLINT = PATH_TO_PROJECT + '\/tests\/linters\/cpplint.py'$/;"	v
+PATH_TO_PROJECT	materials/build/scripts/build.py	/^PATH_TO_PROJECT = '\/'.join(os.path.abspath(os.path.dirname(sys.argv[0])).split('\/')[:-1])$/;"	v
+PATH_TO_PROJECT	materials/build/scripts/style_tests.py	/^PATH_TO_PROJECT = '\/'.join(os.path.abspath(os.path.dirname(sys.argv[0])).split('\/')[:-1])$/;"	v
+ParseArguments	materials/linters/cpplint.py	/^def ParseArguments(args):$/;"	f
+ParseNolintSuppressions	materials/linters/cpplint.py	/^def ParseNolintSuppressions(filename, raw_line, linenum, error):$/;"	f
+PathSplitToList	materials/linters/cpplint.py	/^def PathSplitToList(path):$/;"	f
+PrintCategories	materials/linters/cpplint.py	/^def PrintCategories():$/;"	f
+PrintError	materials/linters/cpplint.py	/^  def PrintError(self, message):$/;"	m	class:_CppLintState
+PrintErrorCounts	materials/linters/cpplint.py	/^  def PrintErrorCounts(self):$/;"	m	class:_CppLintState
+PrintInfo	materials/linters/cpplint.py	/^  def PrintInfo(self, message):$/;"	m	class:_CppLintState
+PrintUsage	materials/linters/cpplint.py	/^def PrintUsage(message):$/;"	f
+PrintVersion	materials/linters/cpplint.py	/^def PrintVersion():$/;"	f
+ProcessConfigOverrides	materials/linters/cpplint.py	/^def ProcessConfigOverrides(filename):$/;"	f
+ProcessExtensionsOption	materials/linters/cpplint.py	/^def ProcessExtensionsOption(val):$/;"	f
+ProcessFile	materials/linters/cpplint.py	/^def ProcessFile(filename, vlevel, extra_check_functions=None):$/;"	f
+ProcessFileData	materials/linters/cpplint.py	/^def ProcessFileData(filename, file_extension, lines, error,$/;"	f
+ProcessGlobalSuppresions	materials/linters/cpplint.py	/^def ProcessGlobalSuppresions(lines):$/;"	f
+ProcessHppHeadersOption	materials/linters/cpplint.py	/^def ProcessHppHeadersOption(val):$/;"	f
+ProcessIncludeOrderOption	materials/linters/cpplint.py	/^def ProcessIncludeOrderOption(val):$/;"	f
+ProcessLine	materials/linters/cpplint.py	/^def ProcessLine(filename, file_extension, clean_lines, line,$/;"	f
+RemoveMultiLineComments	materials/linters/cpplint.py	/^def RemoveMultiLineComments(filename, lines, error):$/;"	f
+RemoveMultiLineCommentsFromRange	materials/linters/cpplint.py	/^def RemoveMultiLineCommentsFromRange(lines, begin, end):$/;"	f
+ReplaceAll	materials/linters/cpplint.py	/^def ReplaceAll(pattern, rep, s):$/;"	f
+RepositoryName	materials/linters/cpplint.py	/^  def RepositoryName(self):$/;"	m	class:FileInfo
+ResetErrorCounts	materials/linters/cpplint.py	/^  def ResetErrorCounts(self):$/;"	m	class:_CppLintState
+ResetNolintSuppressions	materials/linters/cpplint.py	/^def ResetNolintSuppressions():$/;"	f
+ResetSection	materials/linters/cpplint.py	/^  def ResetSection(self, directive):$/;"	m	class:_IncludeState
+RestoreFilters	materials/linters/cpplint.py	/^  def RestoreFilters(self):$/;"	m	class:_CppLintState
+ReverseCloseExpression	materials/linters/cpplint.py	/^def ReverseCloseExpression(clean_lines, linenum, pos):$/;"	f
+Search	materials/linters/cpplint.py	/^def Search(pattern, s):$/;"	f
+SeenOpenBrace	materials/linters/cpplint.py	/^  def SeenOpenBrace(self):$/;"	m	class:NestingState
+SetCountingStyle	materials/linters/cpplint.py	/^  def SetCountingStyle(self, counting_style):$/;"	m	class:_CppLintState
+SetFilters	materials/linters/cpplint.py	/^  def SetFilters(self, filters):$/;"	m	class:_CppLintState
+SetLastHeader	materials/linters/cpplint.py	/^  def SetLastHeader(self, header_path):$/;"	m	class:_IncludeState
+SetOutputFormat	materials/linters/cpplint.py	/^  def SetOutputFormat(self, output_format):$/;"	m	class:_CppLintState
+SetQuiet	materials/linters/cpplint.py	/^  def SetQuiet(self, quiet):$/;"	m	class:_CppLintState
+SetVerboseLevel	materials/linters/cpplint.py	/^  def SetVerboseLevel(self, level):$/;"	m	class:_CppLintState
+ShouldCheckNamespaceIndentation	materials/linters/cpplint.py	/^def ShouldCheckNamespaceIndentation(nesting_state, is_namespace_indent_item,$/;"	f
+Split	materials/linters/cpplint.py	/^  def Split(self):$/;"	m	class:FileInfo
+StripListPrefix	materials/linters/cpplint.py	/^    def StripListPrefix(lst, prefix):$/;"	f	function:GetHeaderGuardCPPVariable.FixupPathFromRoot
+Update	materials/linters/cpplint.py	/^  def Update(self, filename, clean_lines, linenum, error):$/;"	m	class:NestingState
+UpdateIncludeState	materials/linters/cpplint.py	/^def UpdateIncludeState(filename, include_dict, io=codecs):$/;"	f
+UpdatePreprocessor	materials/linters/cpplint.py	/^  def UpdatePreprocessor(self, line):$/;"	m	class:NestingState
+_ALT_TOKEN_REPLACEMENT	materials/linters/cpplint.py	/^_ALT_TOKEN_REPLACEMENT = {$/;"	v
+_ALT_TOKEN_REPLACEMENT_PATTERN	materials/linters/cpplint.py	/^_ALT_TOKEN_REPLACEMENT_PATTERN = re.compile($/;"	v
+_AddFilters	materials/linters/cpplint.py	/^def _AddFilters(filters):$/;"	f
+_BLOCK_ASM	materials/linters/cpplint.py	/^_BLOCK_ASM = 3    # The whole block is an inline assembly block$/;"	v
+_BackupFilters	materials/linters/cpplint.py	/^def _BackupFilters():$/;"	f
+_BlockInfo	materials/linters/cpplint.py	/^class _BlockInfo(object):$/;"	c
+_CHECK_MACROS	materials/linters/cpplint.py	/^_CHECK_MACROS = [$/;"	v
+_CHECK_REPLACEMENT	materials/linters/cpplint.py	/^_CHECK_REPLACEMENT = dict([(macro_var, {}) for macro_var in _CHECK_MACROS])$/;"	v
+_CPP_HEADERS	materials/linters/cpplint.py	/^_CPP_HEADERS = frozenset([$/;"	v
+_CPP_SECTION	materials/linters/cpplint.py	/^  _CPP_SECTION = 3$/;"	v	class:_IncludeState
+_CPP_SYS_HEADER	materials/linters/cpplint.py	/^_CPP_SYS_HEADER = 2$/;"	v
+_C_HEADERS	materials/linters/cpplint.py	/^_C_HEADERS = frozenset([$/;"	v
+_C_SECTION	materials/linters/cpplint.py	/^  _C_SECTION = 2$/;"	v	class:_IncludeState
+_C_SYS_HEADER	materials/linters/cpplint.py	/^_C_SYS_HEADER = 1$/;"	v
+_ClassInfo	materials/linters/cpplint.py	/^class _ClassInfo(_BlockInfo):$/;"	c
+_ClassifyInclude	materials/linters/cpplint.py	/^def _ClassifyInclude(fileinfo, include, used_angle_brackets, include_order="default"):$/;"	f
+_CollapseStrings	materials/linters/cpplint.py	/^  def _CollapseStrings(elided):$/;"	m	class:CleansedLines
+_CppLintState	materials/linters/cpplint.py	/^class _CppLintState(object):$/;"	c
+_DEFAULT_C_SUPPRESSED_CATEGORIES	materials/linters/cpplint.py	/^_DEFAULT_C_SUPPRESSED_CATEGORIES = [$/;"	v
+_DEFAULT_FILTERS	materials/linters/cpplint.py	/^_DEFAULT_FILTERS = ['-build\/include_alpha']$/;"	v
+_DEFAULT_KERNEL_SUPPRESSED_CATEGORIES	materials/linters/cpplint.py	/^_DEFAULT_KERNEL_SUPPRESSED_CATEGORIES = [$/;"	v
+_DropCommonSuffixes	materials/linters/cpplint.py	/^def _DropCommonSuffixes(filename):$/;"	f
+_EMPTY_CONDITIONAL_BODY_PATTERN	materials/linters/cpplint.py	/^_EMPTY_CONDITIONAL_BODY_PATTERN = re.compile(r'^\\s*$', re.DOTALL)$/;"	v
+_END_ASM	materials/linters/cpplint.py	/^_END_ASM = 2      # Last line of inline assembly block$/;"	v
+_ERROR_CATEGORIES	materials/linters/cpplint.py	/^_ERROR_CATEGORIES = [$/;"	v
+_ExpandDirectories	materials/linters/cpplint.py	/^def _ExpandDirectories(filenames):$/;"	f
+_ExternCInfo	materials/linters/cpplint.py	/^class _ExternCInfo(_BlockInfo):$/;"	c
+_FilterExcludedFiles	materials/linters/cpplint.py	/^def _FilterExcludedFiles(fnames):$/;"	f
+_Filters	materials/linters/cpplint.py	/^def _Filters():$/;"	f
+_FunctionState	materials/linters/cpplint.py	/^class _FunctionState(object):$/;"	c
+_GetTextInside	materials/linters/cpplint.py	/^def _GetTextInside(text, start_pattern):$/;"	f
+_HEADERS_CONTAINING_TEMPLATES	materials/linters/cpplint.py	/^_HEADERS_CONTAINING_TEMPLATES = ($/;"	v
+_HEADERS_MAYBE_TEMPLATES	materials/linters/cpplint.py	/^_HEADERS_MAYBE_TEMPLATES = ($/;"	v
+_INITIAL_SECTION	materials/linters/cpplint.py	/^  _INITIAL_SECTION = 0$/;"	v	class:_IncludeState
+_INSIDE_ASM	materials/linters/cpplint.py	/^_INSIDE_ASM = 1   # Inside inline assembly block$/;"	v
+_IncludeError	materials/linters/cpplint.py	/^class _IncludeError(Exception):$/;"	c
+_IncludeState	materials/linters/cpplint.py	/^class _IncludeState(object):$/;"	c
+_IsParentOrSame	materials/linters/cpplint.py	/^def _IsParentOrSame(parent, child):$/;"	f
+_IsSourceExtension	materials/linters/cpplint.py	/^def _IsSourceExtension(s):$/;"	f
+_IsType	materials/linters/cpplint.py	/^def _IsType(clean_lines, nesting_state, expr):$/;"	f
+_LEGACY_ERROR_CATEGORIES	materials/linters/cpplint.py	/^_LEGACY_ERROR_CATEGORIES = [$/;"	v
+_LIKELY_MY_HEADER	materials/linters/cpplint.py	/^_LIKELY_MY_HEADER = 4$/;"	v
+_MACHINE_OUTPUTS	materials/linters/cpplint.py	/^_MACHINE_OUTPUTS = [$/;"	v
+_MATCH_ASM	materials/linters/cpplint.py	/^_MATCH_ASM = re.compile(r'^\\s*(?:asm|_asm|__asm|__asm__)'$/;"	v
+_MY_H_SECTION	materials/linters/cpplint.py	/^  _MY_H_SECTION = 1$/;"	v	class:_IncludeState
+_NORMAL_TRIGGER	materials/linters/cpplint.py	/^  _NORMAL_TRIGGER = 250  # for --v=0, 500 for --v=1, etc.$/;"	v	class:_FunctionState
+_NO_ASM	materials/linters/cpplint.py	/^_NO_ASM = 0       # Outside of inline assembly block$/;"	v
+_NamespaceInfo	materials/linters/cpplint.py	/^class _NamespaceInfo(_BlockInfo):$/;"	c
+_OTHER_HEADER	materials/linters/cpplint.py	/^_OTHER_HEADER = 6$/;"	v
+_OTHER_H_SECTION	materials/linters/cpplint.py	/^  _OTHER_H_SECTION = 5$/;"	v	class:_IncludeState
+_OTHER_SYS_HEADER	materials/linters/cpplint.py	/^_OTHER_SYS_HEADER = 3$/;"	v
+_OTHER_SYS_SECTION	materials/linters/cpplint.py	/^  _OTHER_SYS_SECTION = 4$/;"	v	class:_IncludeState
+_OutputFormat	materials/linters/cpplint.py	/^def _OutputFormat():$/;"	f
+_POSSIBLE_MY_HEADER	materials/linters/cpplint.py	/^_POSSIBLE_MY_HEADER = 5$/;"	v
+_PreprocessorInfo	materials/linters/cpplint.py	/^class _PreprocessorInfo(object):$/;"	c
+_Quiet	materials/linters/cpplint.py	/^def _Quiet():$/;"	f
+_RE_FIRST_COMPONENT	materials/linters/cpplint.py	/^_RE_FIRST_COMPONENT = re.compile(r'^[^-_.]+')$/;"	v
+_RE_PATTERN_CLEANSE_LINE_C_COMMENTS	materials/linters/cpplint.py	/^_RE_PATTERN_CLEANSE_LINE_C_COMMENTS = re.compile($/;"	v
+_RE_PATTERN_CLEANSE_LINE_ESCAPES	materials/linters/cpplint.py	/^_RE_PATTERN_CLEANSE_LINE_ESCAPES = re.compile($/;"	v
+_RE_PATTERN_CONST_REF_PARAM	materials/linters/cpplint.py	/^_RE_PATTERN_CONST_REF_PARAM = ($/;"	v
+_RE_PATTERN_C_COMMENTS	materials/linters/cpplint.py	/^_RE_PATTERN_C_COMMENTS = r'\/\\*(?:[^*]|\\*(?!\/))*\\*\/'$/;"	v
+_RE_PATTERN_EXPLICIT_MAKEPAIR	materials/linters/cpplint.py	/^_RE_PATTERN_EXPLICIT_MAKEPAIR = re.compile(r'\\bmake_pair\\s*<')$/;"	v
+_RE_PATTERN_IDENT	materials/linters/cpplint.py	/^_RE_PATTERN_IDENT = r'[_a-zA-Z]\\w*'  # =~ [[:alpha:]][[:alnum:]]*$/;"	v
+_RE_PATTERN_INCLUDE	materials/linters/cpplint.py	/^_RE_PATTERN_INCLUDE = re.compile(r'^\\s*#\\s*include\\s*([<"])([^>"]*)[>"].*$')$/;"	v
+_RE_PATTERN_INVALID_INCREMENT	materials/linters/cpplint.py	/^_RE_PATTERN_INVALID_INCREMENT = re.compile($/;"	v
+_RE_PATTERN_REF_PARAM	materials/linters/cpplint.py	/^_RE_PATTERN_REF_PARAM = re.compile($/;"	v
+_RE_PATTERN_REF_STREAM_PARAM	materials/linters/cpplint.py	/^_RE_PATTERN_REF_STREAM_PARAM = ($/;"	v
+_RE_PATTERN_STRING	materials/linters/cpplint.py	/^_RE_PATTERN_STRING = re.compile(r'\\bstring\\b')$/;"	v
+_RE_PATTERN_TODO	materials/linters/cpplint.py	/^_RE_PATTERN_TODO = re.compile(r'^\/\/(\\s*)TODO(\\(.+?\\))?:?(\\s|$)?')$/;"	v
+_RE_PATTERN_TYPE	materials/linters/cpplint.py	/^_RE_PATTERN_TYPE = ($/;"	v
+_RestoreFilters	materials/linters/cpplint.py	/^def _RestoreFilters():$/;"	f
+_SEARCH_C_FILE	materials/linters/cpplint.py	/^_SEARCH_C_FILE = re.compile(r'\\b(?:LINT_C_FILE|'$/;"	v
+_SEARCH_KERNEL_FILE	materials/linters/cpplint.py	/^_SEARCH_KERNEL_FILE = re.compile(r'\\b(?:LINT_KERNEL_FILE)')$/;"	v
+_SECTION_NAMES	materials/linters/cpplint.py	/^  _SECTION_NAMES = {$/;"	v	class:_IncludeState
+_SED_FIXUPS	materials/linters/cpplint.py	/^_SED_FIXUPS = {$/;"	v
+_SetCountingStyle	materials/linters/cpplint.py	/^def _SetCountingStyle(level):$/;"	f
+_SetFilters	materials/linters/cpplint.py	/^def _SetFilters(filters):$/;"	f
+_SetOutputFormat	materials/linters/cpplint.py	/^def _SetOutputFormat(output_format):$/;"	f
+_SetQuiet	materials/linters/cpplint.py	/^def _SetQuiet(quiet):$/;"	f
+_SetVerboseLevel	materials/linters/cpplint.py	/^def _SetVerboseLevel(level):$/;"	f
+_ShouldPrintError	materials/linters/cpplint.py	/^def _ShouldPrintError(category, confidence, linenum):$/;"	f
+_TEST_FILE_SUFFIX	materials/linters/cpplint.py	/^_TEST_FILE_SUFFIX = '(' + '|'.join(_test_suffixes) + r')$'$/;"	v
+_TEST_TRIGGER	materials/linters/cpplint.py	/^  _TEST_TRIGGER = 400    # about 50% more than _NORMAL_TRIGGER.$/;"	v	class:_FunctionState
+_THIRD_PARTY_HEADERS_PATTERN	materials/linters/cpplint.py	/^_THIRD_PARTY_HEADERS_PATTERN = re.compile($/;"	v
+_THREADING_LIST	materials/linters/cpplint.py	/^_THREADING_LIST = ($/;"	v
+_TYPES	materials/linters/cpplint.py	/^_TYPES = re.compile($/;"	v
+_TYPE_NAMES	materials/linters/cpplint.py	/^  _TYPE_NAMES = {$/;"	v	class:_IncludeState
+_UNSAFE_FUNC_PREFIX	materials/linters/cpplint.py	/^_UNSAFE_FUNC_PREFIX = r'(?:[-+*\/=%^&|(<]\\s*|>\\s+)'$/;"	v
+_VerboseLevel	materials/linters/cpplint.py	/^def _VerboseLevel():$/;"	f
+__VERSION__	materials/linters/cpplint.py	/^__VERSION__ = '1.5.5'$/;"	v
+__init__	materials/linters/cpplint.py	/^  def __init__(self):$/;"	m	class:NestingState
+__init__	materials/linters/cpplint.py	/^  def __init__(self):$/;"	m	class:_CppLintState
+__init__	materials/linters/cpplint.py	/^  def __init__(self):$/;"	m	class:_FunctionState
+__init__	materials/linters/cpplint.py	/^  def __init__(self):$/;"	m	class:_IncludeState
+__init__	materials/linters/cpplint.py	/^  def __init__(self, filename):$/;"	m	class:FileInfo
+__init__	materials/linters/cpplint.py	/^  def __init__(self, linenum):$/;"	m	class:_ExternCInfo
+__init__	materials/linters/cpplint.py	/^  def __init__(self, linenum, seen_open_brace):$/;"	m	class:_BlockInfo
+__init__	materials/linters/cpplint.py	/^  def __init__(self, lines):$/;"	m	class:CleansedLines
+__init__	materials/linters/cpplint.py	/^  def __init__(self, name, class_or_struct, clean_lines, linenum):$/;"	m	class:_ClassInfo
+__init__	materials/linters/cpplint.py	/^  def __init__(self, name, linenum):$/;"	m	class:_NamespaceInfo
+__init__	materials/linters/cpplint.py	/^  def __init__(self, stack_before_if):$/;"	m	class:_PreprocessorInfo
+_cpplint_state	materials/linters/cpplint.py	/^_cpplint_state = _CppLintState()$/;"	v
+_error_suppressions	materials/linters/cpplint.py	/^_error_suppressions = {}$/;"	v
+_excludes	materials/linters/cpplint.py	/^_excludes = None$/;"	v
+_global_error_suppressions	materials/linters/cpplint.py	/^_global_error_suppressions = {}$/;"	v
+_hpp_headers	materials/linters/cpplint.py	/^_hpp_headers = set([])$/;"	v
+_include_order	materials/linters/cpplint.py	/^_include_order = "default"$/;"	v
+_line_length	materials/linters/cpplint.py	/^_line_length = 80$/;"	v
+_quiet	materials/linters/cpplint.py	/^_quiet = False$/;"	v
+_re_pattern_headers_maybe_templates	materials/linters/cpplint.py	/^_re_pattern_headers_maybe_templates = []$/;"	v
+_re_pattern_templates	materials/linters/cpplint.py	/^_re_pattern_templates = []$/;"	v
+_regexp_compile_cache	materials/linters/cpplint.py	/^_regexp_compile_cache = {}$/;"	v
+_repository	materials/linters/cpplint.py	/^_repository = None$/;"	v
+_root	materials/linters/cpplint.py	/^_root = None$/;"	v
+_root_debug	materials/linters/cpplint.py	/^_root_debug = False$/;"	v
+_test_suffixes	materials/linters/cpplint.py	/^_test_suffixes = ['_test', '_regtest', '_unittest']$/;"	v
+_valid_extensions	materials/linters/cpplint.py	/^_valid_extensions = set([])$/;"	v
+b	src/cat/s21_cat.c	/^    int b;$/;"	m	struct:flags	file:
+build	materials/build/scripts/build.py	/^def build(makefile_dir, makefile_name, makefile_stage):$/;"	f
+build_stderr	materials/build/scripts/build.py	/^build_stderr = sys.stdout$/;"	v
+build_stdout	materials/build/scripts/build.py	/^build_stdout = sys.stdout$/;"	v
+c	src/grep/s21_grep.c	/^    int c;$/;"	m	struct:__anon1	file:
+check_struct	src/grep/s21_grep.c	/^int check_struct(out_flags *flags) {$/;"	f
+codecs	materials/linters/cpplint.py	/^import codecs$/;"	i
+copy	materials/linters/cpplint.py	/^import copy$/;"	i
+copy_cpplint_config	materials/build/scripts/style_tests.py	/^def copy_cpplint_config():$/;"	f
+delete_cpplint_config	materials/build/scripts/style_tests.py	/^def delete_cpplint_config():$/;"	f
+devnull_stderr	materials/build/scripts/style_tests.py	/^devnull_stderr = sys.stdout$/;"	v
+devnull_stdout	materials/build/scripts/style_tests.py	/^devnull_stdout = sys.stdout$/;"	v
+do_flags	src/cat/s21_cat.c	/^void do_flags(char a, flags *flag_sum) {$/;"	f
+do_flags	src/grep/s21_grep.c	/^void do_flags(char a, out_flags *flags) {$/;"	f
+do_flags2	src/cat/s21_cat.c	/^void do_flags2(char *str, flags *flag_sum) {$/;"	f
+e	src/cat/s21_cat.c	/^    int e;$/;"	m	struct:flags	file:
+errors	src/cat/s21_cat.c	/^void errors(int number, char* string) {$/;"	f
+etree	materials/linters/cpplint.py	/^import xml.etree.ElementTree$/;"	i
+file_output	src/cat/s21_cat.c	/^int file_output(char *file_name, flags *flag_sum) {$/;"	f
+file_parser	src/grep/s21_grep.c	/^int file_parser(char pattern[BUFF][MAX], char *file_name, int *p_qty, int *pat_pos) {$/;"	f
+file_prepare	src/cat/s21_cat.c	/^void file_prepare(int argc, char **argv, flags *flag_sum) {$/;"	f
+flag_init	src/cat/s21_cat.c	/^void flag_init(flags *flag_sum) {$/;"	f
+flag_output	src/cat/s21_cat.c	/^void flag_output(flags *flag_sum) {$/;"	f
+flag_parser	src/grep/s21_grep.c	/^int flag_parser(out_flags *flags, int *p_qty, int argc, char **argv, char pattern[BUFF][MAX],$/;"	f
+flag_parsing	src/cat/s21_cat.c	/^int flag_parsing(int argc, char **argv, flags *flag_sum) {$/;"	f
+flags	src/cat/s21_cat.c	/^typedef struct flags {$/;"	s	file:
+flags	src/cat/s21_cat.c	/^} flags;$/;"	t	typeref:struct:flags	file:
+for	materials/linters/cpplint.py	/^import math  # for log$/;"	i
+format_out	src/cat/s21_cat.c	/^void format_out(char* file, flags flag_sum) {$/;"	f
+get_all_about_make	materials/build/scripts/build.py	/^def get_all_about_make():$/;"	f
+get_source_filenames	materials/build/scripts/style_tests.py	/^def get_source_filenames():$/;"	f
+getopt	materials/linters/cpplint.py	/^import getopt$/;"	i
+glob	materials/linters/cpplint.py	/^import glob$/;"	i
+h	src/grep/s21_grep.c	/^    int h;$/;"	m	struct:__anon1	file:
+i	src/grep/s21_grep.c	/^    int i;$/;"	m	struct:__anon1	file:
+i_param	src/grep/s21_grep.c	/^int i_param(out_flags *flags) {$/;"	f
+iteritems	materials/linters/cpplint.py	/^  iteritems = dict.items$/;"	v
+iteritems	materials/linters/cpplint.py	/^  iteritems = dict.iteritems$/;"	v
+itertools	materials/linters/cpplint.py	/^import itertools$/;"	i
+itervalues	materials/linters/cpplint.py	/^  itervalues = dict.itervalues$/;"	v
+itervalues	materials/linters/cpplint.py	/^  itervalues = dict.values$/;"	v
+l	src/grep/s21_grep.c	/^    int l;$/;"	m	struct:__anon1	file:
+log	materials/linters/cpplint.py	/^import math  # for log$/;"	i
+long	materials/linters/cpplint.py	/^  long = int$/;"	v
+main	materials/linters/cpplint.py	/^def main():$/;"	f
+main	src/cat/s21_cat.c	/^int main(int argc, char **argv) {$/;"	f
+main	src/grep/s21_grep.c	/^int main(int argc, char **argv) {$/;"	f
+math	materials/linters/cpplint.py	/^import math  # for log$/;"	i
+n	src/cat/s21_cat.c	/^    int n;$/;"	m	struct:flags	file:
+n	src/grep/s21_grep.c	/^    int n;$/;"	m	struct:__anon1	file:
+no_flag	src/cat/s21_cat.c	/^    int no_flag;$/;"	m	struct:flags	file:
+no_flags	src/grep/s21_grep.c	/^    int no_flags;$/;"	m	struct:__anon1	file:
+o	src/grep/s21_grep.c	/^    int o;$/;"	m	struct:__anon1	file:
+o_param	src/grep/s21_grep.c	/^int o_param(out_flags *flags) {$/;"	f
+o_param_pnt	src/grep/s21_grep.c	/^void *o_param_pnt(out_flags *flags, regmatch_t *pmatch) {$/;"	f
+os	materials/build/scripts/build.py	/^import os$/;"	i
+os	materials/build/scripts/style_tests.py	/^import os$/;"	i
+os	materials/linters/cpplint.py	/^import os$/;"	i
+out_flags	src/grep/s21_grep.c	/^} out_flags;$/;"	t	typeref:struct:__anon1	file:
+output	src/grep/s21_grep.c	/^int output(out_flags *flags, char *temp, int r, char *file_name, int f_qty, int r_count) {$/;"	f
+pars_prep	src/grep/s21_grep.c	/^int pars_prep(int argc, char **argv, int *ef_exist) {$/;"	f
+processing	src/grep/s21_grep.c	/^int processing(out_flags *flags,$/;"	f
+processing_row	src/grep/s21_grep.c	/^int processing_row(char *files, int *f_qty, int r, out_flags *flags, char *str,$/;"	f
+re	materials/linters/cpplint.py	/^import re$/;"	i
+row_count	src/grep/s21_grep.c	/^int row_count(FILE *file) {$/;"	f
+run	materials/build/scripts/build.py	/^def run():$/;"	f
+run	materials/build/scripts/style_tests.py	/^def run():$/;"	f
+s	src/cat/s21_cat.c	/^    int s;$/;"	m	struct:flags	file:
+s	src/grep/s21_grep.c	/^    int s;$/;"	m	struct:__anon1	file:
+s21_fgets	src/grep/s21_grep.c	/^char *s21_fgets(FILE *file, char *pattern) {$/;"	f
+sre_compile	materials/linters/cpplint.py	/^import sre_compile$/;"	i
+string	materials/linters/cpplint.py	/^import string$/;"	i
+struct_init	src/grep/s21_grep.c	/^void struct_init(out_flags *flags) {$/;"	f
+style_test_result	materials/build/scripts/style_tests.py	/^def style_test_result(arr_of_files):$/;"	f
+subprocess	materials/build/scripts/build.py	/^import subprocess$/;"	i
+subprocess	materials/build/scripts/style_tests.py	/^import subprocess$/;"	i
+sys	materials/build/scripts/build.py	/^import sys$/;"	i
+sys	materials/build/scripts/style_tests.py	/^import sys$/;"	i
+sys	materials/linters/cpplint.py	/^import sys$/;"	i
+sysconfig	materials/linters/cpplint.py	/^import sysconfig$/;"	i
+t	src/cat/s21_cat.c	/^    int t;$/;"	m	struct:flags	file:
+test_name	materials/build/scripts/build.py	/^test_name = sys.argv[1]$/;"	v
+unicode_escape_decode	materials/linters/cpplint.py	/^def unicode_escape_decode(x):$/;"	f
+unicodedata	materials/linters/cpplint.py	/^import unicodedata$/;"	i
+v	src/cat/s21_cat.c	/^    int v;$/;"	m	struct:flags	file:
+v	src/grep/s21_grep.c	/^    int v;$/;"	m	struct:__anon1	file:
+xml	materials/linters/cpplint.py	/^import xml.etree.ElementTree$/;"	i
+xrange	materials/linters/cpplint.py	/^  xrange = range  # Python 3$/;"	v
